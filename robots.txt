@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://olivia-creative-corner.pages.dev/sitemap.xml
+
