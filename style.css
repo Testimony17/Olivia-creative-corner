@@ -1,0 +1,161 @@
+/* STYLE SECTIONING TAGS */
+/* PAGE*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  
+ background-color: cream
+  color: dark green
+  text-align: center;
+  font-size: 18px;
+  margin:0
+  padding:0
+}
+
+/* WEBSITE TITLE */
+
+h1 {
+  color: #B76E79;
+  font-size:32px;
+  text-align: center;
+  
+  margin-bottom: 10px;
+}
+    /*SECTION HEADINGS*/
+ h2{
+   color: #6B4F4F;
+   text-align: center;
+   margin-top: 30px;
+   margin-bottom: 15px;
+ } 
+h3 {
+    color: #8B6B61;
+    color: #333333;
+    font-size:18px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  /*PARAGRAPHS*/
+
+p {
+  color: #5C4B51;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+  
+/* STYLE IMAGES */
+
+
+img {
+  
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  }
+
+/* NAVIGATION BAR */
+nav{
+    background-color: #A8B5A2;
+  color: #333333;
+    font-size:18px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+ box-sizing: border-box;
+width: 100%;
+}
+ .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+ }
+@media (max-width: 600px){
+  .menu-toggle{
+    display: block;
+    margin: 10px auto;
+  }
+  .nav-links {
+    display: none;
+   flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+    .nav-links.show {
+      display: flex;
+    }
+   .nav-links a {
+     margin:10px;
+   }
+  }
+
+/*NAVIGATION LINKS*/
+  a{
+    color:  #333333;
+    margin: 10px; 
+  }
+  /*BUTTONS*/
+button {
+  background-color:#A8B5A2;
+  color: #333333;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px){
+  h1 {
+    font-size: 26px;
+  }
+  button {
+    display: block;
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  p{
+    margin-left: 5%;
+    margin-right: 5%
+  }
+}
+   /*HAMBURGER MENU*/
+   .menu-toggle {
+     display: block;
+     font-size: 28px;
+     background: none;
+     border: none;
+     cursor: pointer;
+   }
+ @media (max-width: 600px){
+   .menutoggle {
+     display: block;
+     margin: 10px auto;
+     }
+   .nav-links {
+     display: none;
+     flex-direction: column;
+     align-items: center;
+   }
+   .nav-links.show {
+     display: flex;
+   }
+   .nav-links a {
+     margin: 10px;
+   }
+ }
+
+
+
