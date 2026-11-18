@@ -156,6 +156,22 @@ button {
      margin: 10px;
    }
  }
+/* =========================
+   WEBSITE FOOTER
+========================= */
+
+.site-footer {
+  background-color: #EDE3D7;
+  color: #333333;
+  padding: 40px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 
 
 
