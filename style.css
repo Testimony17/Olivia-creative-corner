@@ -262,6 +262,19 @@ button {
 footer-links > div {
   text-align: left;
 }
+.footer-links h3 {
+  text-align: left;
+  margin-left: 0;
+}
 
+.footer-links ul {
+  text-align: left;
+  padding-left: 0;
+}
+
+.footer-links > div {
+  justify-self: start;
+  width: 100%;
+}
 
 
