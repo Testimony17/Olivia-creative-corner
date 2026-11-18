@@ -278,5 +278,17 @@ footer-links > div {
   justify-self: start;
   width: 100%;
 }
+/* Website Logo */
+.site-logo {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}
 
+.site-logo img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    display: block;
+}
 
